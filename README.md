@@ -36,6 +36,7 @@ spec:
 
 # pod with multi container
 
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -76,5 +77,6 @@ spec:
     volumeMounts:
     - name: volume
       mountPath: /var/log
+
    
 
