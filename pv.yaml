@@ -10,5 +10,6 @@ spec:
     storage: 10Gi
   accessModes:
     - ReadWriteMany
-  hostPath:
-    path: "/mnt/data"
+  nfs:
+    path: /devopsdude
+    server: 10.0.0.2
